@@ -1,0 +1,101 @@
+Questions,Answers
+What is C programming?,"C programming is a procedural programming language developed for system programming, but it is also widely used for application development."
+What are the main features of the C language?,"The main features of C include low-level access to memory, simple syntax, extensive library support, and portability."
+What is the difference between C and C++?,"C is a procedural programming language, while C++ is an object-oriented programming language derived from C."
+Explain the structure of a C program.,"The structure of a C program consists of preprocessor directives, function declarations, and the main function."
+What are the data types in C?,"C has basic data types like int, float, char, double, and complex data types like arrays, structures, and pointers."
+How do you declare and initialize variables in C?,Variables in C are declared by specifying the data type and initialized with an initial value if needed.
+What are the different types of storage classes in C?,"The different types of storage classes in C are auto, register, static, and extern."
+How do you define a function in C?,"Functions in C are defined by specifying the return type, function name, and parameters if any."
+What is a pointer in C?,A pointer in C is a variable that stores the memory address of another variable.
+How do you use pointers in C?,"Pointers are used to work with dynamic memory, arrays, and function arguments by reference."
+Explain the concept of dynamic memory allocation in C.,"Dynamic memory allocation in C is done using functions like 'malloc', 'calloc', and 'realloc'."
+What are the different types of operators in C?,"C has different types of operators, including arithmetic, relational, logical, bitwise, and assignment operators."
+How do you use conditional statements (if-else) in C?,Conditional statements (if-else) in C are used for decision-making based on a condition.
+What are loops in C? How do you use them?,"Loops in C, like 'for', 'while', and 'do-while', are used for repeated execution of code."
+Explain the concept of arrays in C.,"Arrays in C are collections of elements of the same data type, accessed by their index."
+How do you pass an array to a function in C?,An array can be passed to a function in C by passing its name as an argument.
+What is a string in C? How do you manipulate strings?,"A string in C is an array of characters, terminated by a null character ('\0')."
+Explain the concept of structures in C.,Structures in C allow grouping related variables of different data types.
+How do you use file handling in C?,"File handling in C is achieved through functions like 'fopen', 'fclose', 'fread', and 'fwrite'."
+What is the difference between fread and fwrite functions?,"'fread' is used for reading binary data from a file, while 'fwrite' is used for writing binary data to a file."
+How do you handle errors and exceptions in C?,Errors and exceptions in C can be handled using 'try-catch' blocks in C++ or error codes in C.
+Explain the concept of recursion in C.,Recursion in C involves a function calling itself to solve a problem in a recursive manner.
+How do you work with command-line arguments in C?,Command-line arguments in C are passed to the main function as arguments when the program is executed from the command line.
+What is the purpose of the 'const' keyword in C?,The 'const' keyword in C is used to declare a constant variable whose value cannot be changed.
+"What are function pointers in C, and how are they used?",Function pointers in C store the address of functions and can be used to call functions indirectly.
+Explain the 'typedef' keyword in C.,The 'typedef' keyword in C is used to create aliases or alternate names for data types.
+What are the differences between 'malloc' and 'calloc'?,"'malloc' is used to allocate memory block of specified size, while 'calloc' allocates memory and initializes it to zero."
+How do you work with multi-dimensional arrays in C?,"Multi-dimensional arrays in C are arrays with more than one dimension, accessed using multiple indices."
+Explain the 'enum' data type in C.,The 'enum' data type in C is used to define a set of named constants representing integer values.
+What are the bitwise operators in C?,"Bitwise operators in C manipulate individual bits of data, including bitwise AND, OR, XOR, and shifts."
+How do you swap two variables without using a temporary variable?,Two variables can be swapped without using a temporary variable using bitwise XOR operation.
+What is the 'sizeof' operator in C used for?,The 'sizeof' operator in C is used to find the size (in bytes) of a data type or a variable.
+Explain the 'volatile' keyword in C.,The 'volatile' keyword in C indicates that a variable may be changed externally and should not be optimized by the compiler.
+How do you create and use macros in C?,Macros in C are defined using the '#define' directive and are used to replace code snippets.
+What is the difference between 'break' and 'continue' statements?,"'break' is used to exit the loop, and 'continue' is used to skip the current iteration in a loop."
+Explain the 'do-while' loop in C.,The 'do-while' loop in C executes the loop body at least once before checking the loop condition.
+How do you use the 'goto' statement in C?,The 'goto' statement in C is used to transfer control to a specified labeled statement.
+"What is the 'preprocessor' in C, and how does it work?","The preprocessor in C processes the code before compilation, handling macros, conditional compilation, and include files."
+How do you work with 'typedef' in structures?,'typedef' can be used with structures to create a new name for a structure data type.
+Explain the 'static' keyword in C.,The 'static' keyword in C is used to create a variable that retains its value between function calls.
+How do you use 'scanf' and 'printf' functions for input and output in C?,"'scanf' is used to read input from the user, and 'printf' is used to display output on the screen."
+What is the 'union' data type in C?,A 'union' in C is a data type that allows storing different data types in the same memory location.
+How do you use 'assert' in C?,'assert' in C is used to check the validity of an expression and abort the program if the expression is false.
+Explain the 'memcmp' and 'memset' functions in C.,"'memcmp' compares two blocks of memory, while 'memset' sets a block of memory to a specified value."
+How do you handle character input and output in C?,Character input and output in C can be handled using 'getchar' and 'putchar' functions.
+What is the purpose of the 'extern' keyword in C?,The 'extern' keyword in C is used to declare a variable or function that is defined in another file.
+Explain the concept of 'const' pointers in C.,'const' pointers in C are pointers that cannot change the address they point to but can change the value stored at the address.
+How do you implement a linked list in C?,A linked list in C is a data structure where each element points to the next element.
+What are the differences between 'malloc' and 'realloc'?,"'malloc' is used for initial allocation, while 'realloc' is used to resize the previously allocated memory block."
+How do you work with variable arguments in C functions?,Variable arguments in C functions are handled using 'stdarg.h' header and 'va_list' type.
+Explain the 'register' keyword in C.,The 'register' keyword in C is used to suggest to the compiler to store a variable in a CPU register.
+How do you implement a stack in C?,"A stack in C is a data structure that follows the Last In, First Out (LIFO) principle."
+What is the 'volatile' pointer in C used for?,A 'volatile' pointer in C indicates that the pointer can be changed by an external source.
+How do you use the 'const' keyword with functions in C?,'const' keyword with functions in C indicates that the function does not modify any non-static local variables.
+Explain the 'gets' and 'puts' functions in C.,"'gets' is used to read a string from the user, and 'puts' is used to display a string on the screen."
+How do you work with 'static' variables in functions?,'static' variables in functions retain their value between function calls.
+What is the 'strcpy' function used for in C?,The 'strcpy' function in C is used to copy a string from the source to the destination.
+How do you implement a queue in C?,"A queue in C is a data structure that follows the First In, First Out (FIFO) principle."
+Explain the 'strcat' function in C.,The 'strcat' function in C is used to concatenate two strings.
+What are the differences between 'union' and 'structure' in C?,"'union' and 'structure' are both used to group related variables, but a 'union' can hold only one value at a time, while a 'structure' can hold multiple values."
+How do you implement a binary search algorithm in C?,A binary search algorithm in C works on a sorted array and divides the search space by half in each iteration.
+Explain the 'isalnum' and 'isdigit' functions in C.,"The 'isalnum' function checks if a character is an alphanumeric character, and 'isdigit' checks if a character is a digit."
+How do you use 'fgets' and 'fputs' for file input and output in C?,"'fgets' is used to read a line from a file, and 'fputs' is used to write a line to a file."
+What is the difference between 'putchar' and 'printf' for character output?,"'putchar' is used to print a single character, while 'printf' is used for formatted output."
+Explain the 'strtok' function in C.,The 'strtok' function in C is used to tokenize a string into smaller strings based on a delimiter.
+How do you work with 'const' pointers to constant data in C?,'const' pointers to constant data in C cannot change the address they point to or modify the value at the address.
+What are the differences between 'auto' and 'register' storage classes?,"'auto' and 'register' are both storage classes for local variables, but 'auto' is the default storage class, and 'register' suggests storing the variable in a CPU register."
+How do you implement a doubly linked list in C?,A doubly linked list in C is a linked list where each element points to both the previous and next elements.
+Explain the 'strlen' function in C.,The 'strlen' function in C returns the length of a string (excluding the null character).
+What is the purpose of the 'volatile' qualifier with structures in C?,The 'volatile' qualifier with structures in C indicates that the structure may be changed externally and should not be optimized.
+How do you implement a binary tree in C?,A binary tree in C is a hierarchical data structure with each node having at most two children.
+Explain the 'memcmp' and 'memchr' functions in C.,"The 'memcmp' function compares two blocks of memory, while 'memchr' searches for a character in a block of memory."
+How do you work with 'static' functions in C?,'static' functions in C have internal linkage and can only be called within the same translation unit.
+What is the 'strncpy' function used for in C?,The 'strncpy' function is used to copy a specified number of characters from the source to the destination.
+How do you implement a hash table in C?,A hash table in C is a data structure that maps keys to values using a hash function.
+Explain the 'isalpha' and 'islower' functions in C.,"The 'isalpha' function checks if a character is an alphabet, and 'islower' checks if a character is a lowercase alphabet."
+How do you work with 'volatile' pointers to constant data in C?,'volatile' pointers to constant data in C cannot change the address they point to but can modify the value at the address.
+What is the difference between 'malloc' and 'calloc' for dynamic memory allocation?,"'malloc' is used to allocate memory, while 'calloc' allocates and initializes memory to zero."
+How do you implement a bubble sort algorithm in C?,A bubble sort algorithm in C repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+Explain the 'isupper' and 'tolower' functions in C.,"The 'isupper' function checks if a character is an uppercase alphabet, and 'tolower' converts a character to lowercase."
+How do you work with 'const' pointers to non-constant data in C?,'const' pointers to non-constant data in C cannot change the address they point to or modify the value at the address.
+What is the 'strchr' function used for in C?,The 'strchr' function in C searches for the first occurrence of a character in a string.
+How do you implement a merge sort algorithm in C?,"A merge sort algorithm in C divides the array into two halves, sorts them, and merges the sorted halves."
+Explain the 'atoi' and 'atof' functions in C.,"The 'atoi' function converts a string to an integer, and 'atof' converts a string to a floating-point number."
+How do you work with 'volatile' pointers to non-constant data in C?,'volatile' pointers to non-constant data in C can change the address they point to and modify the value at the address.
+What is the 'strcspn' function used for in C?,The 'strcspn' function in C calculates the length of the initial segment of a string that contains only characters not in the given set.
+How do you implement a quick sort algorithm in C?,A quick sort algorithm in C selects a pivot element and partitions the array around the pivot.
+Explain the 'rand' and 'srand' functions in C.,"The 'rand' function generates a random integer, and 'srand' is used to seed the random number generator."
+How do you work with 'const' arrays in C?,'const' arrays in C cannot be modified after initialization.
+What is the 'strpbrk' function used for in C?,The 'strpbrk' function in C searches for the first occurrence of any character from a set of characters in a string.
+How do you implement a binary search tree in C?,"A binary search tree in C is a binary tree where the left child is less than the parent, and the right child is greater."
+Explain the 'qsort' function in C.,The 'qsort' function in C is used to sort an array using the Quick Sort algorithm.
+How do you work with 'volatile' arrays in C?,'volatile' arrays in C indicate that the elements of the array may be changed externally.
+What is the 'strspn' function used for in C?,The 'strspn' function in C calculates the length of the initial segment of a string that contains only characters from the given set.
+How do you implement a depth-first search algorithm in C?,A depth-first search algorithm in C explores as far as possible along each branch before backtracking.
+Explain the 'memmove' function in C.,"The 'memmove' function in C copies a block of memory, handling overlapping memory regions."
+How do you work with 'const' multidimensional arrays in C?,'const' multidimensional arrays in C cannot be modified after initialization.
+What is the 'strstr' function used for in C?,The 'strstr' function in C searches for the first occurrence of a substring in a string.
+How do you implement a breadth-first search algorithm in C?,A breadth-first search algorithm in C explores all the neighbor nodes at the present depth before moving on to the next level.
+Explain the 'memcmp' and 'memcpy' functions in C.,"The 'memcmp' function compares two blocks of memory, and the 'memcpy' function copies a block of memory from one location to another."

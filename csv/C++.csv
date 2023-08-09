@@ -1,0 +1,101 @@
+Questions,Answers
+What is C++ programming?,"C++ programming is an extension of the C programming language that supports object-oriented programming and provides additional features like classes, inheritance, and polymorphism."
+What are the main features of C++ language?,"The main features of C++ include classes, objects, inheritance, polymorphism, templates, exception handling, and the Standard Template Library (STL)."
+Explain the concept of object-oriented programming in C++.,"Object-oriented programming in C++ is a paradigm that organizes data and functions into objects, promoting modularity, reusability, and maintainability."
+What is the difference between C and C++?,"C++ is an extension of C with additional features like classes, inheritance, and polymorphism, making it an object-oriented programming language."
+How do you create a class in C++?,"In C++, a class is a user-defined data type that encapsulates data members and member functions."
+What is an object in C++?,An object in C++ is an instance of a class that represents a real-world entity and can have its own state and behavior.
+How do you create an object of a class in C++?,An object of a class in C++ is created using the 'new' keyword or by directly declaring it as a local variable.
+What are access specifiers in C++?,"Access specifiers in C++ (public, private, and protected) control the visibility of class members."
+What is encapsulation in C++?,"Encapsulation in C++ refers to the bundling of data and functions together, allowing data hiding and preventing direct access to internal details."
+How do you achieve data hiding in C++?,"Data hiding in C++ is achieved by declaring class members as private, ensuring they can only be accessed through public member functions."
+Explain the concept of inheritance in C++.,"Inheritance in C++ allows a class to inherit properties and behavior from another class, promoting code reuse."
+What are the types of inheritance in C++?,"Types of inheritance in C++ include single inheritance, multiple inheritance, multilevel inheritance, and hierarchical inheritance."
+How do you implement multiple inheritance in C++?,Multiple inheritance in C++ allows a class to inherit from two or more base classes.
+What is the use of the 'virtual' keyword in C++?,The 'virtual' keyword in C++ is used to enable dynamic or late binding of functions during runtime polymorphism.
+What is polymorphism in C++?,"Polymorphism in C++ allows objects of different classes to be treated as objects of a common base class, providing a unified interface."
+How do you achieve runtime polymorphism in C++?,Runtime polymorphism in C++ is achieved using virtual functions and pointers or references to the base class.
+What is a pure virtual function in C++?,"A pure virtual function in C++ is a virtual function with no implementation in the base class, making it an abstract function."
+What are abstract classes in C++?,Abstract classes in C++ are classes that contain at least one pure virtual function and cannot be instantiated.
+Explain the concept of function overloading in C++.,Function overloading in C++ allows multiple functions with the same name but different parameters.
+How do you overload operators in C++?,Operator overloading in C++ allows the redefinition of operators for user-defined classes.
+What is the 'this' pointer in C++?,The 'this' pointer in C++ is a special pointer that points to the object on which the member function is called.
+What are namespaces in C++?,"Namespaces in C++ provide a way to group related classes, functions, and variables, preventing naming conflicts."
+How do you use exception handling in C++?,Exception handling in C++ allows the graceful handling of errors and abnormal conditions.
+"What is the 'try', 'catch', and 'throw' blocks in C++?","The 'try', 'catch', and 'throw' blocks are used for exception handling in C++."
+Explain the concept of templates in C++.,"Templates in C++ allow generic programming, enabling functions and classes to operate with different data types."
+How do you create a template class in C++?,A template class in C++ is a class that operates on a generic data type specified during instantiation.
+What is the use of the 'typename' keyword in C++ templates?,The 'typename' keyword is used in template declarations to indicate that a dependent type name is a type.
+How do you handle file input and output in C++?,File input and output in C++ are achieved using 'ifstream' and 'ofstream' classes.
+What is the difference between 'ifstream' and 'ofstream' in C++?,"'ifstream' is used for reading from files, and 'ofstream' is used for writing to files."
+Explain the concept of smart pointers in C++.,Smart pointers in C++ are classes that manage memory and automatically deallocate objects when they are no longer needed.
+"What are unique_ptr, shared_ptr, and weak_ptr in C++?","unique_ptr, shared_ptr, and weak_ptr are three types of smart pointers in C++."
+How do you work with STL (Standard Template Library) in C++?,"The Standard Template Library (STL) in C++ provides a collection of container classes, algorithms, and iterators."
+What are vectors in C++?,Vectors in C++ are dynamic arrays that can resize themselves as elements are added or removed.
+How do you use 'map' and 'unordered_map' in C++?,'map' and 'unordered_map' are associative containers in C++ that store key-value pairs.
+Explain the concept of RAII (Resource Acquisition Is Initialization) in C++.,RAII (Resource Acquisition Is Initialization) in C++ is a programming technique that associates resource management with object lifetime.
+What is the use of 'const' keyword in C++?,The 'const' keyword in C++ is used to declare constant variables or constant member functions.
+How do you work with constant member functions in C++?,Constant member functions in C++ are member functions that do not modify the object's state.
+What are the differences between reference and pointer in C++?,The main difference between a reference and a pointer in C++ is that a reference cannot be null and cannot be re-assigned to another object.
+Explain the concept of lambda expressions in C++.,Lambda expressions in C++ are anonymous functions that can be used as arguments to higher-order functions.
+What are the advantages of using lambda expressions in C++?,Lambda expressions in C++ allow concise and expressive code for short functions.
+How do you work with algorithms in C++?,"Algorithms in C++ are functions that operate on containers and perform operations like sorting, searching, and modifying."
+What are the differences between 'find' and 'find_if' in C++ algorithms?,"'find' is used to search for an element in a container, and 'find_if' is used to search based on a user-defined condition."
+Explain the concept of move semantics in C++.,"Move semantics in C++ allows the efficient transfer of resources, like memory ownership, from one object to another."
+How do you use 'std::move' in C++?,"'std::move' in C++ converts an lvalue into an rvalue, allowing efficient resource transfer."
+What is the 'auto' keyword in C++?,The 'auto' keyword in C++ is used to automatically deduce the data type of a variable at compile-time.
+How do you work with range-based for loops in C++?,Range-based for loops in C++ simplify iterating over elements of a container.
+Explain the concept of threading and multi-threading in C++.,"Threading in C++ allows the execution of multiple threads simultaneously, enabling parallel processing."
+How do you create threads in C++?,Threads in C++ are created using the 'std::thread' class.
+What is the use of 'std::thread' in C++?,'std::thread' in C++ is used to create and manage threads.
+Explain the concept of condition variables in C++ threading.,Condition variables in C++ threading are synchronization primitives used to block and unblock threads based on certain conditions.
+How do you prevent data races in C++ multi-threading?,"Data races in C++ multi-threading occur when multiple threads access shared data simultaneously, leading to unpredictable behavior."
+What is RAII in the context of thread synchronization in C++?,RAII can be used in C++ multi-threading to ensure proper synchronization and resource management.
+Explain the concept of futures and promises in C++.,Futures and promises in C++ facilitate communication between threads by providing a mechanism to retrieve the result of a computation.
+How do you use 'std::future' and 'std::promise' in C++?,'std::future' and 'std::promise' in C++ are used to represent asynchronous computations and their results.
+What is the use of 'std::async' in C++?,'std::async' in C++ is used to launch a function asynchronously and obtain the result through a 'std::future'.
+Explain the concept of move constructors and move assignment operators in C++.,Move constructors and move assignment operators in C++ allow efficient transfer of resources between objects.
+How do you implement a move constructor in C++?,A move constructor in C++ transfers ownership of resources from a temporary object to a newly created object.
+What are the differences between deep copy and shallow copy in C++?,"Deep copy creates a new copy of the data, while shallow copy copies the address of the data."
+Explain the concept of copy constructors in C++.,A copy constructor in C++ is used to create a new object as a copy of an existing object.
+How do you implement a copy constructor in C++?,A copy constructor is implemented with a constructor that takes a constant reference to the same class as its argument.
+What are the differences between the default constructor and parameterized constructor in C++?,The default constructor in C++ is automatically generated by the compiler if no constructor is defined in the class.
+Explain the concept of friend functions in C++.,Friend functions in C++ can access private and protected members of a class.
+How do you create a friend function in C++?,A friend function is declared inside the class with the 'friend' keyword and defined outside the class.
+What is the use of the 'explicit' keyword in C++ constructors?,The 'explicit' keyword in C++ constructors prevents implicit type conversions during object creation.
+Explain the concept of function templates in C++.,Function templates in C++ allow writing functions that can work with different data types.
+How do you work with function templates in C++?,Function templates in C++ are defined using the 'template' keyword followed by the template parameter list.
+What are the differences between 'std::vector' and 'std::array' in C++?,"'std::vector' is a dynamic array that can grow or shrink in size, while 'std::array' has a fixed size."
+Explain the concept of pointers to functions in C++.,Pointers to functions in C++ store the address of functions and can be used to call functions indirectly.
+How do you create and use pointers to functions in C++?,Pointers to functions in C++ are declared with the return type and arguments of the function they point to.
+What are the differences between 'std::set' and 'std::unordered_set' in C++?,'std::set' and 'std::unordered_set' are associative containers that store unique elements in a specific order.
+"Explain the concept of C++11, C++14, and C++17 features.","C++11, C++14, and C++17 are different versions of the C++ programming language, each with its set of features."
+How do you work with 'auto' and 'decltype' in C++11?,'auto' in C++11 is used to automatically deduce the data type of a variable at compile-time.
+What are user-defined literals in C++11?,User-defined literals in C++11 allow defining custom literals for user-defined types.
+Explain the concept of 'nullptr' in C++11.,'nullptr' in C++11 is a keyword representing a null pointer.
+How do you use 'std::initializer_list' in C++11?,'std::initializer_list' in C++11 allows initializing objects with a list of elements.
+What are the differences between 'std::list' and 'std::vector' in C++?,"'std::list' is a doubly-linked list, and 'std::vector' is a dynamic array in C++."
+Explain the concept of 'constexpr' in C++11.,'constexpr' in C++11 allows specifying that a function or object can be evaluated at compile-time.
+How do you work with 'std::unique_ptr' and 'std::shared_ptr' in C++11?,'std::unique_ptr' and 'std::shared_ptr' are smart pointers in C++11 for managing memory ownership.
+What are 'std::thread_local' and 'std::once_flag' in C++11?,"'std::thread_local' and 'std::once_flag' in C++11 are used for thread-local storage and lazy initialization, respectively."
+Explain the concept of variadic templates in C++11.,Variadic templates in C++11 allow functions and classes to accept a variable number of arguments.
+How do you work with variadic templates in C++11?,Variadic templates in C++11 are defined using the 'template' keyword followed by 'typename... Args'.
+What are lambda captures in C++11?,Lambda captures in C++11 allow capturing variables from the enclosing scope in lambda expressions.
+Explain the concept of rvalue references in C++11.,Rvalue references in C++11 allow binding to temporary objects and enable move semantics.
+How do you work with move constructors and move assignment operators in C++11?,Move constructors and move assignment operators in C++11 allow efficient transfer of resources between objects.
+What are the differences between 'std::set' and 'std::map' in C++?,'std::set' and 'std::map' in C++ are associative containers that store elements in sorted order.
+Explain the concept of 'std::unordered_map' in C++11.,'std::unordered_map' in C++11 is an associative container that stores elements in an unordered manner.
+How do you use 'std::tuple' in C++11?,'std::tuple' in C++11 is a data structure that can hold multiple elements of different types.
+What are the differences between 'std::string' and 'std::wstring' in C++?,"'std::string' is a standard C++ string class for handling sequences of characters, while 'std::wstring' is for handling wide characters."
+Explain the concept of C++14 features like 'std::make_unique' and 'std::integer_sequence'.,C++14 introduces features like 'std::make_unique' for creating unique pointers and 'std::integer_sequence' for sequences of integers.
+How do you use 'std::tuple_cat' in C++14?,'std::tuple_cat' in C++14 allows concatenating multiple tuples into a single tuple.
+What are variable templates in C++14?,Variable templates in C++14 are variables defined using templates that can have different values for different template arguments.
+Explain the concept of generic lambdas in C++14.,Generic lambdas in C++14 allow using auto in lambda parameter lists to accept any type.
+How do you use 'std::integer_sequence' in C++14?,'std::integer_sequence' in C++14 represents a compile-time sequence of integers.
+What are user-defined literals for standard library types in C++14?,User-defined literals for standard library types in C++14 allow defining custom literals for standard library types.
+Explain the concept of 'std::shared_timed_mutex' in C++14.,'std::shared_timed_mutex' in C++14 allows shared and exclusive locking for multi-threading.
+How do you use 'std::shared_timed_mutex' for read-write locking in C++14?,'std::shared_timed_mutex' in C++14 is useful when multiple threads need to read shared data simultaneously.
+What are C++17 features like 'std::variant' and 'std::optional'?,C++17 introduces features like 'std::variant' for holding values of different types and 'std::optional' for representing optional values.
+Explain the concept of 'std::filesystem' in C++17.,'std::filesystem' in C++17 provides classes and functions for working with files and directories.
+How do you work with 'std::variant' in C++17?,'std::variant' in C++17 is a type-safe union that can hold values of different types at different times.
+What are the differences between 'std::variant' and 'std::any' in C++17?,"'std::variant' is a tagged union, while 'std::any' is an empty container that can hold any type of object."

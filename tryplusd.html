@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body background="bg.jpeg">
+    <div class="center">
+      <h1>SIGN UP</h1>
+      <form method="post">
+        <div class="txt_field">
+            <input type="text" id="name" required>
+            <span></span>
+            <label>Username</label>
+          </div>
+          <div class="txt_field">
+            <input type="date" id="dob" required>
+            <span></span>
+            <label>DOB</label>
+          </div>
+          <div class="txt_field">
+            <input type="tel" id="ph" pattern="[0-9]{10}" required>
+            <span></span>
+            <label>Phone Number</label>
+          </div>
+        
+        <div class="txt_field">
+          <input type="text" id="email" required>
+          <span></span>
+          <label>Email</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" id="psw" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <input type="button" id="submitData" name="submitData" onclick="auth2()" value="Sign Up">
+        <div class="signup_link"  >
+          Already have an account?<a href="logplusd.html">sign In</a>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"; 
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
+    import { getDatabase,set,ref,update } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+    apiKey: "AIzaSyBV9LnTtXX5K8n_MDsTu2H_oSLjW5lfJyY",
+    authDomain: "login-final-ad582.firebaseapp.com",
+    projectId: "login-final-ad582",
+    storageBucket: "login-final-ad582.appspot.com",
+    messagingSenderId: "862119370310",
+    appId: "1:862119370310:web:885f52dd1d1e230ba6b447"
+  };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth();
+    const database = getDatabase(app);
+
+    submitData.addEventListener('click', (e) => {           //button and id
+
+        var email = document.getElementById('email').value;   //email id
+        var password = document.getElementById('psw').value;   //pwd id
+     createUserWithEmailAndPassword(auth, email, password)
+  .then((userCredential) => {
+    
+   const user = userCredential.user;
+   set(ref(database, 'users/' + user.uid), {
+  email: email,
+  password: password
+  
+})
+.then(() => {
+  
+  alert('user created successfully');
+  window.location.assign("index.html");
+})
+.catch((error) => {
+  
+  alert(error);
+});
+   
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    alert(errorMessage);
+   
+  });
+
+    });
+</script>
+
